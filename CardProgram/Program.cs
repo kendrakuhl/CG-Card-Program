@@ -82,9 +82,9 @@ namespace CardProgram
         /// *public* = accessor. Your options are public, private and internal. Public means everybody can
         /// see it. Private means it's only available to the class. See my private items at the top of the class.
         /// Internal is special and you will learn what it is later... 
-        /// *Card* = The data type that is being returned.
-        /// *DrawCard* = The name of your method. This can be WHATEVER you want it to be. The alternative to this is void.
+        /// *Card* = The data type that is being returned. The alternative to a specific data type like this is void.
         /// Unless you have used void here, your method HAS to have a return.
+        /// *DrawCard* = The name of your method. This can be WHATEVER you want it to be.
         /// *()* = This is the portal to the body of your method. You can put parameters here to pass data into the method
         /// *{}* = This is the body of your method. This is where you do the work of your method.
         /// </summary>
