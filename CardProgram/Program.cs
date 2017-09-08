@@ -103,7 +103,7 @@ namespace CardProgram
     class Card
     {
         /// <summary>
-        /// Notice this property only has a getter? and it's contrived off of my Value property?
+        /// Notice this property only has a getter? and it's derived from my Value property?
         /// This means it is read only. You can't go: card.Name = "something" in Main. The compiler
         /// will complain terribly.
         /// </summary>
