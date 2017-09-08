@@ -56,13 +56,13 @@ namespace CardProgram
             Cards = new Card[52];
 
             var counter = 0;
-            for(int s = 0; s < 4; s++)
+            foreach(var suit in _suits)
             {
                 for (int i = 0; i < 13; i++)
                 {
                     var card = new Card();
                     card.Value = i + 1;
-                    card.Suit = _suits[s];
+                    card.Suit = suit;
                     Cards[counter] = card;
                     counter++;
                 }
